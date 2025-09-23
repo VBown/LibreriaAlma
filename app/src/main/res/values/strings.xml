@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">LibreriaAlma</string>
+    <string name="tv_bienvenida">Librería Alma Libre</string>
+    <string name="iv_portada_libro">Portada del libro</string>
+    <string name="button_vermas">Ver más</string>
+    <string name="tv_mensajecompra">Tu vuelo interior está listo 🕊️</string>
+    <string name="bt_confirmacompra">Confirmar compra</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_carrito">Carrito</string>
+    <string name="menu_libros">Libros</string>
+    <string name="menu_exit">Exit</string>
+    <string name="logo_libreria">logo_libreria</string>
+    <string name="Descriptivo_Librería">Nuestra colección reúne obras esenciales de mindfulness, neurociencia, espiritualidad y sanación interior. Desde técnicas prácticas para reducir el estrés, hasta exploraciones profundas sobre chakras, intuición y propósito de vida, cada libro es una invitación a reconectar contigo mismo.</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="imagen_portada">imagen portada</string>
+    <string name="bt_menos">-</string>
+    <string name="tv_cantidad">1</string>
+    <string name="bt_mas">+</string>
+    <string name="tv_bievenida">Bienvenido/a\nAquí comienza tu viaje</string>
+    <string name="tv_descriptivo">Nuestra colección reúne obras esenciales de mindfulness, neurociencia, espiritualidad y sanación interior. Desde técnicas prácticas para reducir el estrés, hasta exploraciones profundas sobre chakras, intuición y propósito de vida, cada libro es una invitación a reconectar contigo mismo.</string>
+    <string name="tv_despedida">Hasta Pronto, que tengas un hermoso viaje a tu Interior</string>
+</resources>

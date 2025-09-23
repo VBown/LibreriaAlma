@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/homeFragment">
+
+    <!-- Home -->
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.libreriaalma.Home_Fragment"
+        android:label="Inicio"
+        tools:layout="@layout/fragment_home_" />
+
+    <!-- Librería -->
+    <fragment
+        android:id="@+id/libreriaFragment"
+        android:name="com.example.libreriaalma.LibreriaFragment"
+        android:label="@string/menu_libros"
+        tools:layout="@layout/fragment_libreria">
+
+        <!-- Acción hacia Detalle -->
+        <action
+            android:id="@+id/action_libreria_to_detalle"
+            app:destination="@id/detalleFragment" />
+    </fragment>
+
+    <!-- Detalle -->
+    <fragment
+        android:id="@+id/detalleFragment"
+        android:name="com.example.libreriaalma.DetalleFragment"
+        android:label="Detalle"
+        tools:layout="@layout/fragment_detalle">
+
+        <argument android:name="titulo"      app:argType="string" />
+        <argument android:name="descripcion" app:argType="string" />
+        <argument android:name="imagenResId" app:argType="integer" />
+        <argument android:name="autor"       app:argType="string" />
+        <argument android:name="anio"        app:argType="integer" />
+        <argument android:name="precio"      app:argType="float" />
+
+        <!-- Acción hacia Carrito con limpieza de pila -->
+        <action
+            android:id="@+id/action_detalle_to_carrito"
+            app:destination="@id/carritoFragment"
+            app:popUpTo="@id/libreriaFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+
+    <!-- Carrito -->
+    <fragment
+        android:id="@+id/carritoFragment"
+        android:name="com.example.libreriaalma.CarritoFragment"
+        android:label="@string/menu_carrito"
+        tools:layout="@layout/fragment_carrito" />
+
+    <!-- Exit -->
+    <fragment
+        android:id="@+id/exit_fragment"
+        android:name="com.example.libreriaalma.Exit_Fragment"
+        android:label="@string/menu_exit"
+        tools:layout="@layout/fragment_exit_" />
+
+</navigation>

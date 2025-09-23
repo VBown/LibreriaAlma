@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="niebla_serena">#F2F2F2</color>
+    <color name="rosa_bruma">#F8BBD0</color>
+    <color name="gris_ceniza">#BDBDBD</color>
+    <color name="rosa_ritual">#EC407A</color>
+    <color name="lila_intuitiva">#CE93D8</color>
+    <color name="lila_profundo">#8E24AA</color>
+    <color name="gris_pizarra">#616161</color>
+    <color name="raiz_profunda">#4E342E</color>
+    <color name="pulso_naranja">#FF9800</color>
+    <color name="voz_calida">#FBC02D</color>
+    <color name="bruma_azul">#90CAF9</color>
+    <color name="latido_coral">#FF7043</color>
+    <color name="huella_verde">#81C784</color>
+    <color name="niebla_suave">#F5F5F5</color>
+    <color name="buttonNumber">#2196F3</color>
+    <color name="buttonOperator">#4CAF50</color>
+    <color name="buttonEquals">#FF9800</color>
+    <color name="buttonTextColor">#FFFFFF</color>
+    <color name="backgroundButton">#0A655D</color>
+    <color name="completedBackground">#DFF0D8</color>
+    <color name="pendingBackground">#FFFFFF</color>
+    <color name="fondo_claro">#FFF5FA</color>
+    <color name="lila_claro">#CE93D8</color>
+    <color name="rosa_suave">#F8BBD0</color>
+
+
+</resources>
